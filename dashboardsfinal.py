@@ -61,6 +61,8 @@ def streamlit_app():
             title="Série Temporal"
         )
         st.plotly_chart(fig, use_container_width=True)
-        st.plt
+    
     st.dataframe(df_f.head(50))
 
+if __name__ == "__main__":
+    streamlit_app()
