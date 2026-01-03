@@ -1,4 +1,7 @@
+streamlit
 pandas
 numpy
+matplotlib>=3.8
+seaborn
 plotly
-streamlit
+openpyxl
